@@ -25,13 +25,15 @@ phpMyAdmin 配置： `/etc/phpMyAdmin/`
 
 SVN 配置： `/var/svn/repos/`
 
+数据库 root 默认密码：`cat /home/userdata/initialPWD.txt`
+
 ## 2、安装
 
 ***建议安装 CentOS 7 Minimal (最小化安装) 后再使用本脚本安装环境***
 
 ```bash
 ## 一键安装命令
-yum install -y wget unzip && wget https://git.io/v2OPx && unzip master.zip && cd LNMP-master && bash lnmp.sh
+yum install -y wget unzip && wget https://git.io/v2OPx -O LNMP.zip && unzip LNMP.zip && cd LNMP-master && bash lnmp.sh
 
 
 ## 分步骤安装命令
@@ -209,9 +211,9 @@ service vbackup del c7-20151010-101010.tar.gz
 
 ## 8、示例图
 
-![](http://i13.tietuku.com/1b0ce6885457c95b.png)
+![](http://i13.piimg.com/1b0ce6885457c95b.png)
 
-![](http://i13.tietuku.com/184a2be1381e39a5.png)
+![](http://i13.piimg.com/184a2be1381e39a5.png)
 
 
 ## 9、协议
